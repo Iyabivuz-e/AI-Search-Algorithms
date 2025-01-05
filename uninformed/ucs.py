@@ -1,3 +1,18 @@
+# Why UCS is Cool 😎:
+    # Always guarantees the best path.
+    # Never wastes time on more expensive paths.
+    # Ideal for finding optimal solutions when costs differ.
+# Why Use UCS in AI?
+    # UCS is perfect for robot navigation, path planning, and game AI.
+    # For example:
+    # A robot finding the shortest path in a maze. 🤖
+    # A GPS finding the fastest route to a destination. 🗺️
+# How It Works (Simple Steps):
+    # Start at the beginning (where you are right now).
+    # Look at all possible paths you can take from your current spot.
+    # Always choose the path with the lowest cost first.
+    # Keep doing this until you reach the goal (candy store).
+
 def uniform_cost_search(graph, start, target):
     frontier = [(0, start, [])] # To keep track of the cost, current_node, and the paths we have visited so far.
                                 # frontier = [ (cost, current_node, [])] e.x: frontier = [(0, 'A', [])] if start is 'A'
